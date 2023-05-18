@@ -1,0 +1,11 @@
+<div class="wrapper">
+  <div class="todos-info">
+    <div>{{ todo.name }}</div>
+    <div>{{ todo.description }}</div>
+  </div>
+  <div class="todos-actions">
+    <button [disabled]="true">Mark as done</button>
+    <button (click)="editTodos()">Edit</button>
+    <button (click)="deleteTodos()">Delete</button>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<h2>ToDos scanner</h2>
+<div>
+  <div>
+    <label for="todosNameInput">Todos name: </label>
+    <input type="text" id="todosNameInput" [(ngModel)]="todoName" />
+  </div>
+  <div>
+    <label for="todosDescriptionInput">Todos description: </label>
+    <textarea
+      id="todosDescriptionInput"
+      [(ngModel)]="todoDescription"
+    ></textarea>
+  </div>
+  <button
+    [disabled]="todoName.length == 0 || todoDescription.length == 0"
+    (click)="onClick()"
+  >
+    {{ todosToEditId ? "Edit" : "Save" }}
+  </button>
+  <button *ngIf="todosToEditId" (click)="backToAddMode()">Cancel</button>
+</div>

@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "0df09ddb-fbfe-4513-a0d3-53c07e61772b",
+      "name": "Śmieci",
+      "description": "Wyrzuć plastik"
+    },
+    {
+      "id": "2879b583-f7ef-4365-b743-14885ba8eab1",
+      "name": "Karma",
+      "description": "Kup karmę dla Alphy"
+    },
+    {
+      "id": "6a4530da-50a0-4977-af7d-1205d7328323",
+      "name": "Obiad",
+      "description": "Zrób zupę"
+    }
+  ]
+}

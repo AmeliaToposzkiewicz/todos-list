@@ -1,0 +1,21 @@
+.wrapper {
+  width: 500px;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+  background-color: lightgray;
+  justify-content: space-between;
+}
+
+.todos-info {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.todos-actions {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
